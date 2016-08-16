@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mytasks</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for "head"}}
+
+    <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/mytasks.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/mytasks.css">
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/mytasks.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDWPbDObo52FesFxRORsPXd_35K5qiAo8I",
+        authDomain: "my-tasks-18f1a.firebaseapp.com",
+        databaseURL: "https://my-tasks-18f1a.firebaseio.com",
+        storageBucket: "my-tasks-18f1a.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+    
+
+    {{content-for "body-footer"}}
+  </body>
+</html>
