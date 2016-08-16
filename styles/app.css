@@ -4,6 +4,10 @@
 	color: #fff;
 }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #FF6287;
+}
+
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #6C46CC;
 }
