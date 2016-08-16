@@ -15,3 +15,7 @@
 .navbar-default .navbar-nav > li > a {
 	color: #6C46CC;
 }
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+	position: relative;
+}
